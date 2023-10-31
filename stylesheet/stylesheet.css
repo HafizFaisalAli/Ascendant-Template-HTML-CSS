@@ -1,0 +1,182 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(209, 201, 201);
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(media/image.jpg);
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0 100px;
+}
+.logo p i{
+    font-size: 45px;
+    color: lightgray ;
+}
+.logo p{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size:25px;
+    color: lightgray;
+    float: left;
+    cursor: pointer;
+    font-weight: bold;
+}
+.navbar ul{
+    float: right;
+}
+.navbar ul li{
+    display: inline-block;
+    color:  lightgray;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+.b{
+    color: rgb(20, 247, 20);
+}
+.navbar ul li select{
+    width: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    size: 0px;
+    color: white;
+}
+hr{
+    color: silver;
+    opacity: 0.2;
+}
+.text{
+    text-transform: uppercase;
+    margin-top: 100px;
+    text-align: center;
+}
+.text p{
+  color:   rgb(14, 101, 14);
+  text-align: center;
+  font-size: 20px;
+  line-height: px;
+}
+.text h2{
+    color: black;
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    
+}
+.text button{
+    text-transform: uppercase;
+    color: white;
+    background-color:  rgb(14, 101, 14) ;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.heading{ 
+    margin-top: 50px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.heading h2{
+    font-weight: bold; 
+}
+.line{
+    margin: 20px auto;
+    width: 50px;
+    border: 2px solid   rgb(14, 101, 14);
+
+}
+.carddd{
+    margin: 100px 0px 100px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    text-align: center;
+    text-transform: uppercase;
+}
+.card i{
+    color:   rgb(14, 101, 14) ;
+    font-size: 30px;
+    border: 1px solid   rgb(14, 101, 14);
+    border-radius: 50%;
+    padding: 30px;
+    margin-bottom: 15px;
+    
+}
+
+
+@media (max-width:480px) {
+    .carddd{
+        flex-direction: column;
+    }
+
+    .card{
+        margin: 20px 0px;
+    }
+
+    .heading{ 
+        margin-top: 20px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .text h2{
+        font-size: 20px;
+    }
+    .text p{
+        font-size: 15px;
+    }
+
+    .navbar{
+        width: 100%;
+        padding: 0 10px;
+        
+    }
+
+    .logo p{
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-size:15px;
+        color: lightgray;
+        float: left;
+        cursor: pointer;
+        
+    }
+    .logo p i{
+        font-size: 30px;
+        color: lightgray ;
+    }
+
+    .navbar ul li{
+    display: block;
+    color:  lightgray;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0px 10px;
+}
+
+.navbar ul{
+    float: left;
+}
+}
+  
